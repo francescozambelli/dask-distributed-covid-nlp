@@ -1,5 +1,9 @@
 # Distributed NLP Analysis of COVID-19 Papers with Dask
 
+<p align="center">
+  <img src="docs/logo.jpeg" alt="Project Cover" width="100%" />
+</p>
+
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 [![Dask](https://img.shields.io/badge/Distributed-Dask-orange.svg)](https://dask.org/)
 [![Course](https://img.shields.io/badge/UniPD-MAPD--B-red.svg)](https://www.unipd.it/)
@@ -101,6 +105,7 @@ Raw publications from CORD-19 contain multi-line nested JSON structures. We comp
 ├── docs/
 │   ├── MAPD-B_Gr04-Presentation.pdf  # Project defense presentation slides
 │   ├── cluster_setup.md              # NFS and Dask worker connection guide
+│   ├── logo.jpeg                     # Project cover image
 │   └── requirements_legacy.yml       # Raw conda freeze from original cluster
 ├── notebooks/
 │   ├── 01_dask_bag_prototyping.ipynb # Initial experiments with Dask Bags
