@@ -1,0 +1,13 @@
+dask[complete]>=2021.6.0
+distributed>=2021.6.0
+numpy>=1.19.0
+pandas>=1.2.0
+scipy>=1.6.0
+scikit-learn>=0.24.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+nltk>=3.6.0
+joblib>=1.0.0
+jupyterlab>=3.0.0
+notebook>=6.0.0
+jq>=1.1.0

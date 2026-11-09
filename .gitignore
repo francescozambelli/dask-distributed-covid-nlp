@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large data and embedding files (should not be committed to Git)
+*.json
+*.vec
+*.csv
+*.zip
+*.tar.gz
+
+# macOS / OS files
+.DS_Store
+Thumbs.db

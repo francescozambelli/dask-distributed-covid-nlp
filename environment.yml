@@ -1,0 +1,21 @@
+name: covid-nlp-dask
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8,<3.11
+  - dask>=2021.6.0
+  - distributed>=2021.6.0
+  - numpy>=1.19
+  - pandas>=1.2
+  - scipy>=1.6
+  - scikit-learn>=0.24
+  - matplotlib>=3.3
+  - seaborn>=0.11
+  - nltk>=3.6
+  - joblib>=1.0
+  - jupyterlab
+  - notebook
+  - pip
+  - pip:
+    - jq
